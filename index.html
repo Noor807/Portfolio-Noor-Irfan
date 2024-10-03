@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Noor Irfan</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div id="header">
         <div class="container">
@@ -17,13 +19,98 @@
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Portfolio</a></li>
 
-                    
+
                 </ul>
             </nav>
+            <div class="header-text">
+                <p>Front-end developer</p>
+                <h1>Hi, I'm <span>Noor</span> <br>Irfan from Oslo Norway</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- ------------About------------ -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assets/user.png" alt="">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I’m [Your Name], a passionate [your profession or field
+                        of interest] based in [your location]. With a background in
+                        [your education or experience], I thrive on creativity and
+                        problem-solving. When I'm not [working or studying], you can find
+                        me [mention hobbies or interests], which inspires my work and
+                        keeps me motivated. I believe in continuous learning and enjoy
+                        connecting with others who share my enthusiasm for [specific topics
+                        or interests]. I'm excited to share my journey and insights
+                        as I pursue [your goals or aspirations]!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>- Figma , Wireframing, prototyping,
+                                <br>- User-Centered Design
+                                <br>- Accessibility Standards (WCAG)
+                                <br>- Design Systems and components Libraries
+                            </li>
+                            <li><span>Front-end Development</span><br>- HTML ,CSS, Javascript (Vanilla)
+                                <br>- Responsive Web Design
+                                <br>- Cross-browser Compatibility
+                                <br>- Performance Optimization
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI?UX</span><br>- Figma , Wireframing, prototyping,
+                                <br>- User-Centered Design
+                                <br>- Accessibility Standards (WCAG)
+                                <br>- Design Systems and components Libraries
+                            </li>
+                            <li><span>Front-end Development</span><br>- HTML ,CSS, Javascript (Vanilla)
+                                <br>- Responsive Web Design
+                                <br>- Cross-browser Compatibility
+                                <br>- Performance Optimization
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI?UX</span><br>- Figma , Wireframing, prototyping,
+                                <br>- User-Centered Design
+                                <br>- Accessibility Standards (WCAG)
+                                <br>- Design Systems and components Libraries
+                            </li>
+                            <li><span>Front-end Development</span><br>- HTML ,CSS, Javascript (Vanilla)
+                                <br>- Responsive Web Design
+                                <br>- Cross-browser Compatibility
+                                <br>- Performance Optimization
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
         </div>
 
     </div>
 
-    
+    <script src="./js/index.mjs"></script>
+
+
 </body>
+
 </html>
