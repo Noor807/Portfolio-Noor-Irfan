@@ -6,13 +6,13 @@
 }
 
 body {
-    background:#131313;
+    background: #131313;
     color: #fff;
 }
 
 #header {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-image: url();
     background-size: cover;
     background-position: center;
@@ -258,7 +258,8 @@ nav ul li a:hover::after {
     font-weight: 500;
     margin-bottom: 20px;
 }
-.layer a{
+
+.layer a {
     margin-top: 20px;
     color: #ff004f;
     text-decoration: none;
@@ -270,15 +271,18 @@ nav ul li a:hover::after {
     border-radius: 50%;
     text-align: center;
 }
-.work:hover img{
+
+.work:hover img {
     transform: scale(1.1);
 
 }
-.work:hover .layer{
+
+.work:hover .layer {
     height: 100%;
 
 }
-.btn{
+
+.btn {
     display: block;
     margin: 50px auto;
     width: fit-content;
@@ -287,30 +291,36 @@ nav ul li a:hover::after {
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
-    transition: background 0.5s ;
+    transition: background 0.5s;
 }
-.btn:hover{
+
+.btn:hover {
     background: #ff004f;
-} 
+}
+
 /*-----------------contact--------------------*/
-.contact-left{
+.contact-left {
     flex-basis: 35%;
 
 }
-.contact-left p{
+
+.contact-left p {
     margin-top: 30px;
 }
-.contact-left p i{
+
+.contact-left p i {
     color: #ff004f;
     margin-right: 15px;
     font-size: 25px;
 
 }
-.social-icons{
+
+.social-icons {
     margin-top: 30px;
 
 }
-.social-icons a{
+
+.social-icons a {
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
@@ -319,17 +329,67 @@ nav ul li a:hover::after {
     transition: transform 0.5s;
 
 }
-.social-icons a:hover{
+
+.social-icons a:hover {
     color: #ff004f;
     transform: translateY(-5px);
 }
-.copyright{
+
+.copyright {
     width: 100%;
     text-align: center;
     padding: 25px 0;
     background: #262626;
     font-weight: 300;
-    margin-top:50px;
+    margin-top: 50px;
 }
 
-    
+
+/* ---------------smalle screen----------    */
+
+nav .fas {
+    display: none;
+}
+
+
+
+@media(max-width:600px) {
+
+    .header-text {
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    nav .fas {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul {
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+}
