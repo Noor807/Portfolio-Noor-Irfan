@@ -12,55 +12,13 @@ body {
 
 #header {
     width: 100%;
-    height: 50vh;
-    background-image: url();
-    background-size: cover;
-    background-position: center;
+    height:50vh;
+   
 }
 
 .container {
     padding: 5px 10%;
 }
-
-/* nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-} */
-
-/* .logo {
-    width: 140px;
-}
-
-nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    position: relative;
-}
-
-nav ul li a::after {
-    content: '';
-    width: 0px;
-    height: 3px;
-    background: #ff004f;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.5s;
-}
-
-nav ul li a:hover::after {
-    width: 100%;
-
-} */
 
 .header-text {
     margin-top: 10%;
@@ -77,10 +35,81 @@ nav ul li a:hover::after {
     color: #ff004f;
 }
 
-/*---------------About-----------------------------*/
+@media (max-width: 768px) {
+    #header {
+        height:30vh; 
+    }
+
+    .container {
+        padding: 5px 5%;
+    }
+
+    .header-text {
+        margin-top: 5%;
+        font-size: 24px; 
+    }
+
+    .header-text h1 {
+        font-size: 40px;
+        margin-top: 10px; 
+    }
+
+    .header-text h1 span {
+        font-size: 36px; 
+    }
+}
+@media (max-width: 601px){
+    #header {
+        height:25vh; 
+    }
+    .container {
+        padding: 2px 5%;
+    }
+
+    .header-text {
+        margin-top:5%;
+        font-size: 24px; 
+    }
+
+    .header-text h1 {
+        font-size: 32px;
+        margin-top:5%; 
+    }
+
+}
+
+
+@media (max-width: 425px) {
+    #header {
+        height: 12vh; /* Slightly smaller height for smaller screens */
+    }
+
+    .container {
+        padding: 2px 1%; /* Reduced padding for tighter layout */
+    }
+
+    .header-text {
+        margin-top:14px; /* Adjusted margin for better spacing */
+        font-size: 20px; /* Smaller font size for readability */
+    }
+
+    .header-text h1 {
+        font-size: 32px; /* Smaller heading size */
+        margin-top: 6px; /* Reduced margin for better spacing */
+    }
+
+    .header-text h1 span {
+        font-size: 28px; /* Adjusted size for span element */
+    }
+}
+
+/*------------------------------About---------------------------------------------------*/
 #about {
     padding: 10px 0;
     color: #ababab;
+    background-color: #1a1a1a;
+    height:750px;
+   
 }
 
 .row {
@@ -106,6 +135,7 @@ nav ul li a:hover::after {
 
 .sub-title {
     margin-top: 20px;
+    margin-bottom: 2rem;
     font-size: 60px;
     font-weight: 600;
     color: #fff;
@@ -148,7 +178,7 @@ nav ul li a:hover::after {
 }
 
 .tab-contents ul li span {
-    color: #f0306d;
+    color: #f03b74;
     font-size: 20px;
 }
 
@@ -159,6 +189,74 @@ nav ul li a:hover::after {
 .tab-contents.active-tab {
     display: block;
 }
+
+@media (max-width: 768px) {
+    #about {
+        height: auto; 
+        padding: 20px 0; 
+    }
+
+    .row {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .about-col-1, .about-col-2 {
+        flex-basis: 100%;
+        margin-bottom: 20px; 
+    }
+
+    .sub-title {
+        font-size: 40px; 
+    }
+
+    .tab-titles {
+        flex-direction: column; 
+        margin: 10px 20px;
+    }
+
+    .tab-links {
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 10px; /* Add bottom margin for spacing */
+        font-size: 16px; /* Reduce font size for tab links */
+    }
+
+    .tab-contents ul li span {
+        font-size: 18px; /* Adjust font size for list items */
+    }
+}
+@media (max-width: 606px) {
+    #about {
+        padding: 10px 0; /* Slightly reduced padding */
+    }
+
+    .row {
+        padding: 0 10px; /* Added padding for better spacing */
+    }
+
+    .about-col-1, .about-col-2 {
+        margin-bottom: 15px; /* Reduced margin for closer spacing */
+    }
+
+    .sub-title {
+        font-size: 32px; /* Smaller subtitle size for mobile */
+    }
+
+    .tab-titles {
+        margin: 5px 10px; /* Adjusted margin for tighter layout */
+    }
+
+    .tab-links {
+        font-size: 14px; /* Further reduced font size for tab links */
+        margin-bottom: 8px; /* Slightly reduced bottom margin */
+    }
+
+    .tab-contents ul li span {
+        font-size: 16px; /* Adjusted font size for list items */
+    }
+}
+
+
 
 /* --------------My services----------------------*/
 #services {
@@ -208,6 +306,39 @@ nav ul li a:hover::after {
     transform: translateY(-10px);
 }
 
+@media (max-width: 768px) {
+    #services {
+        padding: 30px 0; /* Reduced padding for smaller screens */
+        margin-top: 20px; /* Adjusted margin */
+    }
+
+    .services-list {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Smaller minimum width for grid items */
+        gap: 40px; /* Reduced gap between items */
+        margin-top: 30px; /* Adjusted margin */
+    }
+
+    .services-list div {
+        padding: 30px; /* Reduced padding inside service boxes */
+        font-size: 12px; /* Slightly smaller font size */
+    }
+
+    .services-list div i {
+        font-size: 40px; /* Smaller icon size */
+        margin-bottom: 20px; /* Adjusted margin */
+    }
+
+    .services-list div h2 {
+        font-size: 24px; /* Smaller heading size */
+        margin-bottom: 10px; /* Adjusted margin */
+    }
+
+    .services-list div a {
+        font-size: 10px; /* Smaller font size for links */
+    }
+}
+
+
 /*----------------My work------------------------------------------*/
 
 #portfolio {
@@ -223,12 +354,6 @@ nav ul li a:hover::after {
     padding: 0 15px;
 }
 
-/* .sub-title {
-    text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 40px;
-    color: #333;
-} */
 .work-list {
     display: flex;
     flex-wrap: wrap;
@@ -237,14 +362,15 @@ nav ul li a:hover::after {
 }
 
 .work {
-    background: rgba(64, 63, 63, 0.655);
+    background: rgba(60, 60, 60, 0.655);
     border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(80, 80, 80, 0.3);
     width: calc(33.333% - 20px);
     margin-bottom: 30px;
     padding: 15px;
     text-align: center;
-    transition: transform 0.3s;
+    transition: transform 0.5s;
+    border: 1px solid grey;
 }
 
 .work:hover {
@@ -264,19 +390,30 @@ nav ul li a:hover::after {
 }
 
 .buttons {
-    margin-bottom: 15px;
+    display: flex; 
+    justify-content: center; 
+    background-color: rgba(13, 9, 9, 0.9); 
+    color: white;
+    border-radius:15px;
+    margin: 1px 0;
+    padding: 1px 20px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s, transform 0.3s; 
 }
 
-.buttons button {
-    background-color: #f0306d;
-    color: white;
-    border: none;
-    padding: 8px 12px;
-    margin: 5px 2px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.buttons:hover {
+    background-color: rgba(13, 9, 9, 1); 
+    transform: translateY(-2px); 
 }
+
+.buttons p {
+    font-size: 18px;  
+    font-weight: 700;
+    margin: 0; 
+}
+
+
+
 
 .work p {
     margin: 17px 0;
@@ -301,20 +438,60 @@ nav ul li a:hover::after {
     background-color: #f8719c;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
+    #portfolio {
+        padding: 30px 0; /* Reduced padding for smaller screens */
+        margin-top: 20px; /* Adjusted margin */
+    }
+
+    .container {
+        padding: 0 10px; /* Reduced padding inside the container */
+    }
+
+    .work-list {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
     .work {
-        width: calc(50% - 20px);
+        width: 100%; /* Full width for each item */
+        margin-bottom:40px; /* Adjusted margin */
+        padding: 10px; /* Reduced padding inside work items */
+    }
+
+    .work img {
+        margin-bottom: 10px; /* Adjusted margin */
+    }
+
+    .work h3 {
+        font-size: 1.2em; /* Smaller heading size */
+    }
+
+    .buttons {
+        padding: 5px 15px; /* Adjusted padding for buttons */
+    }
+
+    .buttons p {
+        font-size: 16px; /* Smaller font size for button text */
+    }
+
+    .work p {
+        margin: 10px 0; /* Reduced margin for paragraph text */
+        font-size: 12px; /* Adjusted font size */
+    }
+
+    .links a {
+        font-size: 1em; /* Smaller font size for links */
+        padding: 6px 10px; /* Reduced padding */
     }
 }
+
 
 @media (max-width: 480px) {
     .work {
         width: 100%;
     }
 }
-
-
 
 
 /*-----------------contact--------------------*/
@@ -364,51 +541,5 @@ nav ul li a:hover::after {
 }
 
 
-/* ---------------smalle screen----------    */
-
-nav .fas {
-    display: none;
-}
 
 
-
-@media(max-width:600px) {
-
-    .header-text {
-        margin-top: 100%;
-        font-size: 16px;
-    }
-
-    .header-text h1 {
-        font-size: 30px;
-    }
-
-    nav .fas {
-        display: block;
-        font-size: 25px;
-    }
-
-    nav ul {
-        background: #ff004f;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-
-    }
-
-    nav ul li {
-        display: block;
-        margin: 25px;
-    }
-
-    nav ul .fas {
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-    }
-}
