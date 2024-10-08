@@ -12,8 +12,8 @@ body {
 
 #header {
     width: 100%;
-    height:50vh;
-   
+    height: 50vh;
+
 }
 
 .container {
@@ -37,7 +37,7 @@ body {
 
 @media (max-width: 768px) {
     #header {
-        height:30vh; 
+        height: 30vh;
     }
 
     .container {
@@ -46,34 +46,36 @@ body {
 
     .header-text {
         margin-top: 5%;
-        font-size: 24px; 
+        font-size: 24px;
     }
 
     .header-text h1 {
         font-size: 40px;
-        margin-top: 10px; 
+        margin-top: 10px;
     }
 
     .header-text h1 span {
-        font-size: 36px; 
+        font-size: 36px;
     }
 }
-@media (max-width: 601px){
+
+@media (max-width: 601px) {
     #header {
-        height:25vh; 
+        height: 25vh;
     }
+
     .container {
         padding: 2px 5%;
     }
 
     .header-text {
-        margin-top:5%;
-        font-size: 24px; 
+        margin-top: 5%;
+        font-size: 24px;
     }
 
     .header-text h1 {
         font-size: 32px;
-        margin-top:5%; 
+        margin-top: 5%;
     }
 
 }
@@ -81,25 +83,32 @@ body {
 
 @media (max-width: 425px) {
     #header {
-        height: 12vh; /* Slightly smaller height for smaller screens */
+        height: 12vh;
+        /* Slightly smaller height for smaller screens */
     }
 
     .container {
-        padding: 2px 1%; /* Reduced padding for tighter layout */
+        padding: 2px 1%;
+        /* Reduced padding for tighter layout */
     }
 
     .header-text {
-        margin-top:14px; /* Adjusted margin for better spacing */
-        font-size: 20px; /* Smaller font size for readability */
+        margin-top: 14px;
+        /* Adjusted margin for better spacing */
+        font-size: 20px;
+        /* Smaller font size for readability */
     }
 
     .header-text h1 {
-        font-size: 32px; /* Smaller heading size */
-        margin-top: 6px; /* Reduced margin for better spacing */
+        font-size: 32px;
+        /* Smaller heading size */
+        margin-top: 6px;
+        /* Reduced margin for better spacing */
     }
 
     .header-text h1 span {
-        font-size: 28px; /* Adjusted size for span element */
+        font-size: 28px;
+        /* Adjusted size for span element */
     }
 }
 
@@ -108,8 +117,8 @@ body {
     padding: 10px 0;
     color: #ababab;
     background-color: #1a1a1a;
-    height:750px;
-   
+    height: 750px;
+
 }
 
 .row {
@@ -148,8 +157,9 @@ body {
 
 .tab-links {
     margin-right: 50px;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
     cursor: pointer;
     position: relative;
 
@@ -192,67 +202,86 @@ body {
 
 @media (max-width: 768px) {
     #about {
-        height: auto; 
-        padding: 20px 0; 
+        height: auto;
+        padding: 20px 0;
     }
 
     .row {
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
     }
 
-    .about-col-1, .about-col-2 {
+    .about-col-1,
+    .about-col-2 {
         flex-basis: 100%;
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
     }
 
     .sub-title {
-        font-size: 40px; 
+        font-size: 40px;
     }
 
     .tab-titles {
-        flex-direction: column; 
+        flex-direction: row;
         margin: 10px 20px;
+        gap: 1rem;
     }
 
     .tab-links {
-        margin-right: 0; /* Remove right margin */
-        margin-bottom: 10px; /* Add bottom margin for spacing */
-        font-size: 16px; /* Reduce font size for tab links */
+        margin-right: 0;
+        /* Remove right margin */
+        margin-bottom: 10px;
+        /* Add bottom margin for spacing */
+        font-size: 16px;
+        /* Reduce font size for tab links */
+
+
+
     }
 
     .tab-contents ul li span {
-        font-size: 18px; /* Adjust font size for list items */
+        font-size: 18px;
+        /* Adjust font size for list items */
     }
 }
+
 @media (max-width: 606px) {
     #about {
-        padding: 10px 0; /* Slightly reduced padding */
+        padding: 10px 0;
+        /* Slightly reduced padding */
     }
 
     .row {
-        padding: 0 10px; /* Added padding for better spacing */
+        padding: 0 10px;
+        /* Added padding for better spacing */
     }
 
-    .about-col-1, .about-col-2 {
-        margin-bottom: 15px; /* Reduced margin for closer spacing */
+    .about-col-1,
+    .about-col-2 {
+        margin-bottom: 15px;
+        /* Reduced margin for closer spacing */
     }
 
     .sub-title {
-        font-size: 32px; /* Smaller subtitle size for mobile */
+        font-size: 32px;
+        /* Smaller subtitle size for mobile */
     }
 
     .tab-titles {
-        margin: 5px 10px; /* Adjusted margin for tighter layout */
+        margin: 5px 10px;
+        /* Adjusted margin for tighter layout */
     }
 
     .tab-links {
-        font-size: 14px; /* Further reduced font size for tab links */
-        margin-bottom: 8px; /* Slightly reduced bottom margin */
+        font-size: 14px;
+        /* Further reduced font size for tab links */
+        margin-bottom: 8px;
+        /* Slightly reduced bottom margin */
     }
 
     .tab-contents ul li span {
-        font-size: 16px; /* Adjusted font size for list items */
+        font-size: 16px;
+        /* Adjusted font size for list items */
     }
 }
 
@@ -308,33 +337,45 @@ body {
 
 @media (max-width: 768px) {
     #services {
-        padding: 30px 0; /* Reduced padding for smaller screens */
-        margin-top: 20px; /* Adjusted margin */
+        padding: 30px 0;
+        /* Reduced padding for smaller screens */
+        margin-top: 20px;
+        /* Adjusted margin */
     }
 
     .services-list {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Smaller minimum width for grid items */
-        gap: 40px; /* Reduced gap between items */
-        margin-top: 30px; /* Adjusted margin */
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        /* Smaller minimum width for grid items */
+        gap: 40px;
+        /* Reduced gap between items */
+        margin-top: 30px;
+        /* Adjusted margin */
     }
 
     .services-list div {
-        padding: 30px; /* Reduced padding inside service boxes */
-        font-size: 12px; /* Slightly smaller font size */
+        padding: 30px;
+        /* Reduced padding inside service boxes */
+        font-size: 12px;
+        /* Slightly smaller font size */
     }
 
     .services-list div i {
-        font-size: 40px; /* Smaller icon size */
-        margin-bottom: 20px; /* Adjusted margin */
+        font-size: 40px;
+        /* Smaller icon size */
+        margin-bottom: 20px;
+        /* Adjusted margin */
     }
 
     .services-list div h2 {
-        font-size: 24px; /* Smaller heading size */
-        margin-bottom: 10px; /* Adjusted margin */
+        font-size: 24px;
+        /* Smaller heading size */
+        margin-bottom: 10px;
+        /* Adjusted margin */
     }
 
     .services-list div a {
-        font-size: 10px; /* Smaller font size for links */
+        font-size: 10px;
+        /* Smaller font size for links */
     }
 }
 
@@ -362,8 +403,11 @@ body {
 }
 
 .work {
-    background: rgba(60, 60, 60, 0.655);
+    background: rgba(60, 60, 60, 0.932);
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     box-shadow: 0 4px 20px rgba(80, 80, 80, 0.3);
     width: calc(33.333% - 20px);
     margin-bottom: 30px;
@@ -374,7 +418,7 @@ body {
 }
 
 .work:hover {
-    transform: translateY(-5px);
+    transform: translateY(-15px);
 }
 
 .work img {
@@ -390,29 +434,28 @@ body {
 }
 
 .buttons {
-    display: flex; 
-    justify-content: center; 
-    background-color: rgba(13, 9, 9, 0.9); 
+    display: flex;
+    justify-content: center;
+    background-color: rgba(13, 9, 9, 0.9);
     color: white;
-    border-radius:15px;
+    border-radius: 15px;
     margin: 1px 0;
-    padding: 1px 20px; 
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
-    transition: background-color 0.3s, transform 0.3s; 
+    padding: 1px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .buttons:hover {
-    background-color: rgba(13, 9, 9, 1); 
-    transform: translateY(-2px); 
+    background-color: rgba(13, 9, 9, 1);
+    transform: translateY(-2px);
 }
 
 .buttons p {
-    font-size: 18px;  
+    font-size: 18px;
     font-weight: 700;
-    margin: 0; 
+    margin: 0;
+    text-transform: uppercase;
 }
-
-
 
 
 .work p {
@@ -422,17 +465,25 @@ body {
 
 .links {
     margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 .links a {
     color: #131313;
     background-color: aliceblue;
-    padding: 8px 12px;
-    margin: 5px 2px;
-    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
     font-size: 1.2em;
     transition: color 0.3s;
 }
+
 
 .links a:hover {
     background-color: #f8719c;
@@ -440,49 +491,65 @@ body {
 
 @media (max-width: 768px) {
     #portfolio {
-        padding: 30px 0; /* Reduced padding for smaller screens */
-        margin-top: 20px; /* Adjusted margin */
+        padding: 30px 0;
+        /* Reduced padding for smaller screens */
+        margin-top: 20px;
+        /* Adjusted margin */
     }
 
     .container {
-        padding: 0 10px; /* Reduced padding inside the container */
+        padding: 0 10px;
+        /* Reduced padding inside the container */
     }
 
     .work-list {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items */
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center items */
     }
 
     .work {
-        width: 100%; /* Full width for each item */
-        margin-bottom:40px; /* Adjusted margin */
-        padding: 10px; /* Reduced padding inside work items */
+        width: 100%;
+        /* Full width for each item */
+        margin-bottom: 40px;
+        /* Adjusted margin */
+        padding: 10px;
+        /* Reduced padding inside work items */
     }
 
     .work img {
-        margin-bottom: 10px; /* Adjusted margin */
+        margin-bottom: 10px;
+        /* Adjusted margin */
     }
 
     .work h3 {
-        font-size: 1.2em; /* Smaller heading size */
+        font-size: 1.2em;
+        /* Smaller heading size */
     }
 
     .buttons {
-        padding: 5px 15px; /* Adjusted padding for buttons */
+        padding: 5px 15px;
+        /* Adjusted padding for buttons */
     }
 
     .buttons p {
-        font-size: 16px; /* Smaller font size for button text */
+        font-size: 16px;
+        /* Smaller font size for button text */
     }
 
     .work p {
-        margin: 10px 0; /* Reduced margin for paragraph text */
-        font-size: 12px; /* Adjusted font size */
+        margin: 10px 0;
+        /* Reduced margin for paragraph text */
+        font-size: 12px;
+        /* Adjusted font size */
     }
 
     .links a {
-        font-size: 1em; /* Smaller font size for links */
-        padding: 6px 10px; /* Reduced padding */
+        font-size: 1em;
+        /* Smaller font size for links */
+        padding: 6px 10px;
+        /* Reduced padding */
     }
 }
 
@@ -539,7 +606,3 @@ body {
     font-weight: 300;
     margin-top: 50px;
 }
-
-
-
-
