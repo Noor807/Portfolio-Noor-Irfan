@@ -17,3 +17,38 @@ With a keen eye for aesthetics and usability, I aim to create engaging and acces
 
 When I’m not coding or designing, you can find me in exploring nature, designing something on figma, delving into the intricacies of human behavior,or experimenting with creative projects.
 I believe that my diverse background fuels my creativityand problem-solving abilities, allowing me to approach web design with a unique lens.
+
+
+## projects:
+
+#### -RainyDay
+
+https://norofffeu.github.io/html-css-course-assignment-Noor807/?classId=ef3a73db-bfdb-43a2-b6fb-132244cde312&assignmentId=0d372bda-a3cd-46b1-bf09-7c42cc5b5d84&submissionId=00f569ef-c670-44fe-309c-a5a3cfe1d831
+
+Rainydays is a dynamic online jacket store designed for both men and women, offering a wide range of stylish
+and functional outerwear. The website showcases a modern and user-friendly interface, built using (HTML, CSS, and JavaScript).
+It integrates seamlessly with client-provided API endpoints to deliver real-time product information and enhance user experience.
+
+#### -Science Musueum:
+
+https://lillestrom-smuseum.netlify.app
+
+The Science Museum website is an engaging and informative platform designed to showcase the museum's attractions,
+events, and educational programs for children aged 7-11.Built using (HTML and CSS,) the site aims to provide a user-friendly
+experience that encourages exploration and learning about science in a fun and interactive way.
+
+#### -HotView Labs
+
+ https://pagehotviewlabs.netlify.app
+
+ HotView Labs is an innovative online platform dedicated to sharing insights, research findings, and developments
+ in the fields of technology, science, and education. Designed to serve as a comprehensive resource for professionals
+ ,educators, and enthusiasts, the website features a blog-style layout that emphasizes readability and engagement.
+ The website showcases a modern and user-friendly interface, built using (HTML, CSS, and JavaScript).
+
+ ## Contact here:
+
+ inoor8682@gmail.com
+ 
+ iffijan34@yahoo.com
+  
