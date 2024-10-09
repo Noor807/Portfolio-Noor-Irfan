@@ -23,7 +23,7 @@ I believe that my diverse background fuels my creativityand problem-solving abil
 
 #### -RainyDay
 
-https://norofffeu.github.io/html-css-course-assignment-Noor807/?classId=ef3a73db-bfdb-43a2-b6fb-132244cde312&assignmentId=0d372bda-a3cd-46b1-bf09-7c42cc5b5d84&submissionId=00f569ef-c670-44fe-309c-a5a3cfe1d831
+https://noroff-rainydays.netlify.app
 
 Rainydays is a dynamic online jacket store designed for both men and women, offering a wide range of stylish
 and functional outerwear. The website showcases a modern and user-friendly interface, built using (HTML, CSS, and JavaScript).
