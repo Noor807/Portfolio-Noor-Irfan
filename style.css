@@ -12,7 +12,7 @@ body {
 
 #header {
     width: 100%;
-    height: 50vh;
+    height: 35vh;
 
 }
 
@@ -37,7 +37,7 @@ body {
 
 @media (max-width: 768px) {
     #header {
-        height: 30vh;
+        height: 25vh;
     }
 
     .container {
@@ -80,35 +80,32 @@ body {
 
 }
 
-
 @media (max-width: 425px) {
     #header {
-        height: 12vh;
-        /* Slightly smaller height for smaller screens */
+        height: 15vh;
+
     }
 
     .container {
         padding: 2px 1%;
-        /* Reduced padding for tighter layout */
+
     }
 
     .header-text {
-        margin-top: 14px;
-        /* Adjusted margin for better spacing */
+        margin-top: 16px;
         font-size: 20px;
-        /* Smaller font size for readability */
+    
     }
 
     .header-text h1 {
         font-size: 32px;
-        /* Smaller heading size */
         margin-top: 6px;
-        /* Reduced margin for better spacing */
+       
     }
 
     .header-text h1 span {
         font-size: 28px;
-        /* Adjusted size for span element */
+       
     }
 }
 
@@ -229,65 +226,57 @@ body {
 
     .tab-links {
         margin-right: 0;
-        /* Remove right margin */
         margin-bottom: 10px;
-        /* Add bottom margin for spacing */
         font-size: 16px;
-        /* Reduce font size for tab links */
-
-
-
+       
     }
 
     .tab-contents ul li span {
         font-size: 18px;
-        /* Adjust font size for list items */
+       
     }
 }
 
 @media (max-width: 606px) {
     #about {
         padding: 10px 0;
-        /* Slightly reduced padding */
+      
     }
 
     .row {
         padding: 0 10px;
-        /* Added padding for better spacing */
+       
     }
 
     .about-col-1,
     .about-col-2 {
         margin-bottom: 15px;
-        /* Reduced margin for closer spacing */
+       
     }
 
     .sub-title {
         font-size: 32px;
-        /* Smaller subtitle size for mobile */
+       
     }
 
     .tab-titles {
         margin: 5px 10px;
-        /* Adjusted margin for tighter layout */
+       
     }
 
     .tab-links {
         font-size: 14px;
-        /* Further reduced font size for tab links */
         margin-bottom: 8px;
-        /* Slightly reduced bottom margin */
+       
     }
 
     .tab-contents ul li span {
         font-size: 16px;
-        /* Adjusted font size for list items */
+       
     }
 }
 
-
-
-/* --------------My services----------------------*/
+/* -----------------------My services--------------------------------*/
 #services {
     padding: 50px 0;
     margin-top: 30px;
@@ -296,7 +285,6 @@ body {
 .services-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    /* Adjust the minmax value as needed */
     gap: 60px;
     margin-top: 50px;
 }
@@ -338,47 +326,40 @@ body {
 @media (max-width: 768px) {
     #services {
         padding: 30px 0;
-        /* Reduced padding for smaller screens */
         margin-top: 20px;
-        /* Adjusted margin */
+       
     }
 
     .services-list {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        /* Smaller minimum width for grid items */
         gap: 40px;
-        /* Reduced gap between items */
         margin-top: 30px;
-        /* Adjusted margin */
+      
     }
 
     .services-list div {
         padding: 30px;
-        /* Reduced padding inside service boxes */
         font-size: 12px;
-        /* Slightly smaller font size */
+       
     }
 
     .services-list div i {
         font-size: 40px;
-        /* Smaller icon size */
         margin-bottom: 20px;
-        /* Adjusted margin */
+      
     }
 
     .services-list div h2 {
         font-size: 24px;
-        /* Smaller heading size */
         margin-bottom: 10px;
-        /* Adjusted margin */
+       
     }
 
     .services-list div a {
         font-size: 10px;
-        /* Smaller font size for links */
+       
     }
 }
-
 
 /*----------------My work------------------------------------------*/
 
@@ -477,8 +458,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:50px;
-    height:50px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     font-size: 1.2em;
     transition: color 0.3s;
@@ -492,64 +473,58 @@ body {
 @media (max-width: 768px) {
     #portfolio {
         padding: 30px 0;
-        /* Reduced padding for smaller screens */
         margin-top: 20px;
-        /* Adjusted margin */
+      
     }
 
     .container {
         padding: 0 10px;
-        /* Reduced padding inside the container */
+       
     }
 
     .work-list {
         flex-direction: column;
-        /* Stack items vertically */
         align-items: center;
-        /* Center items */
+       
     }
 
     .work {
         width: 100%;
-        /* Full width for each item */
         margin-bottom: 40px;
-        /* Adjusted margin */
         padding: 10px;
-        /* Reduced padding inside work items */
+       
     }
 
     .work img {
         margin-bottom: 10px;
-        /* Adjusted margin */
+       
     }
 
     .work h3 {
         font-size: 1.2em;
-        /* Smaller heading size */
+       
     }
 
     .buttons {
         padding: 5px 15px;
-        /* Adjusted padding for buttons */
+        
     }
 
     .buttons p {
         font-size: 16px;
-        /* Smaller font size for button text */
+       
     }
 
     .work p {
         margin: 10px 0;
-        /* Reduced margin for paragraph text */
         font-size: 12px;
-        /* Adjusted font size */
+       
     }
 
     .links a {
         font-size: 1em;
-        /* Smaller font size for links */
         padding: 6px 10px;
-        /* Reduced padding */
+       
     }
 }
 
@@ -561,7 +536,7 @@ body {
 }
 
 
-/*-----------------contact--------------------*/
+/*-------------------------contact----------------------------*/
 .contact-left {
     flex-basis: 35%;
 
