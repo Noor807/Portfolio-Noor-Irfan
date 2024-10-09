@@ -21,7 +21,7 @@ I believe that my diverse background fuels my creativityand problem-solving abil
 
 ## projects:
 
-#### -RainyDay
+#### -RainyDays
 
 https://noroff-rainydays.netlify.app
 
