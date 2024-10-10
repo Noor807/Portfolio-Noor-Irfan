@@ -23,7 +23,9 @@ I believe that my diverse background fuels my creativityand problem-solving abil
 
 #### -RainyDays
 
-https://noroff-rainydays.netlify.app
+- https://noroff-rainydays.netlify.app
+- https://github.com/NoroffFEU/html-css-Js-course-assignment-Rainydays
+
 
 Rainydays is a dynamic online jacket store designed for both men and women, offering a wide range of stylish
 and functional outerwear. The website showcases a modern and user-friendly interface, built using (HTML, CSS, and JavaScript).
@@ -31,7 +33,9 @@ It integrates seamlessly with client-provided API endpoints to deliver real-time
 
 #### -Science Musueum:
 
-https://lillestrom-smuseum.netlify.app
+- https://lillestrom-smuseum.netlify.app
+- https://github.com/Noor807/Semester-project-ScienceMuseum
+
 
 The Science Museum website is an engaging and informative platform designed to showcase the museum's attractions,
 events, and educational programs for children aged 7-11.Built using (HTML and CSS,) the site aims to provide a user-friendly
@@ -39,7 +43,8 @@ experience that encourages exploration and learning about science in a fun and i
 
 #### -HotView Labs
 
- https://pagehotviewlabs.netlify.app
+ - https://pagehotviewlabs.netlify.app
+ - https://github.com/Noor807/FED1-Noor-Irfan
 
  HotView Labs is an innovative online platform dedicated to sharing insights, research findings, and developments
  in the fields of technology, science, and education. Designed to serve as a comprehensive resource for professionals
